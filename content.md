@@ -126,3 +126,19 @@ Careers
 Recipe directory
 Help center
 Privacy & terms
+
+######
+
+## Sections
+
+### Order of Landing Page for Omnifood Website
+
+- Logo + Navigation
+- Hero
+- Features in
+- How it works
+- Meals (and lists of diets)
+- Testimonials + Gallery
+- Pricing + Features
+- CTA
+- Footer
