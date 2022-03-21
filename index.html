@@ -30,6 +30,10 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
 
     <script defer src="js/script.js"></script>
 
@@ -46,11 +50,13 @@
       <!-- main navigation -->
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for Free</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for Free</a></li>
         </ul>
       </nav>
 
@@ -80,10 +86,11 @@
               nutritional needs. We have delivered 250,000+ meals last year!
             </p>
 
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
 
             <div class="delivered-meals">
               <div class="delivered-imgs">
@@ -132,7 +139,7 @@
       </section>
 
       <!-- section how it works -->
-      <section class="section-how">
+      <section class="section-how" id="how">
         <!-- heading container -->
         <div class="container">
           <span class="subheading">How it works</span>
@@ -215,7 +222,7 @@
       </section>
 
       <!-- section meals -->
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <!-- heading container -->
         <div class="container center-text">
           <span class="subheading">Meals</span>
@@ -347,7 +354,8 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <!-- section testimonials -->
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <!-- heading container -->
           <span class="subheading">Testimonials</span>
@@ -513,7 +521,7 @@
       </section>
 
       <!-- pricing and features section -->
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <!-- heading container -->
         <div class="container">
           <span class="subheading">Meals</span>
@@ -641,7 +649,7 @@
       </section>
 
       <!-- call to action section -->
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <!-- cta div -->
           <div class="cta">
