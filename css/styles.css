@@ -14,6 +14,7 @@
   /* because we wanted the header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -62,6 +63,28 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* MOBILE NAVIGATION */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+/* in this manner we can select elements based on their attributes */
+/* .class_name[attribute='name'] */
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
 }
 
 /**************************/
